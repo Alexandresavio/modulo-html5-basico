@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Trabalhando com formulários em HTML5</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+          
+          <form action="cadastro.php" method="get">
+              <fieldset>
+                <legend>Cadastro</legend>
+                Nome:<br>
+                <input type="text" name="login"><br>
+     
+                Genero<br>
+                <input type="radio" name="genero" value="M">Masculino<br>
+                <input type="radio" name="genero" value="F">Feminino<br>
+     
+                Interesses<br>
+                <input type="checkbox" name="Interesses">Futebol<br>
+                <input type="checkbox" name="Interesses">Cursos<br>
+                <input type="checkbox" name="Interesses">Moda<br>
+
+                <br>Estado<br>
+                <select name="estado">
+                    <option value="sp">SP</option>
+                    <option value="mg">MG</option>
+                    <option value="sc">SC</option>
+                    <option value="rs">RS</option>
+                </select><br>
+
+                <br>
+                
+                <textarea cols="40" rows="10">
+                Digite aqui sua mensagem                    
+                </textarea><br>
+
+                <input type="submit" name="btn-enviar" value="Cadastrar">
+                
+              </fieldset>
+          </form>
+    </body>
+</html>
